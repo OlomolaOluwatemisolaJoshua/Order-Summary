@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myFont;
+    src: url(RedHatDisplay-Regular.ttf);
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: myFont;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+.mainDiv{
+    border: 2px solid transparent;
+    border-radius: 17px;
+    width: 30%;
+    margin: 70px auto;
+    background-color: hsl(0, 0%, 100%);
+}
+.div2{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.divv1{
+    border: 2px solid hsl(225, 100%, 98%);
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    gap: 30%;
+    padding: 5px;
+}
+h2{
+    color: hsl(223, 47%, 23%);
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+h4{
+    color: black;
+}
+.div3{
+    display: flex;
+    gap: 20px;
+    padding: 3px;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.div1{
+    width: 100%;
+}
+.image{
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    width: 100%;
+}
+.divv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+button{
+    margin: 20px auto;
+    border: 2px solid hsl(245, 75%, 52%);
+    box-shadow: 6px 6px 4px hsl(224, 23%, 55%);
+    border-radius: 13px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+    width: 90%;
+    height: 59px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: hsl(244, 53%, 26%);
+    color: cadetblue;
+    cursor: pointer;
+}
+.pay{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 800;
+}
+.Cancel{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+.change{
+    display: flex;
+    align-items: center;
+    color: hsl(245, 75%, 52%);
+    font-weight: bolder;
+}
+.change:hover{
+    text-decoration: none;
+}
+.music{
+    width: 60px;
+}
+.p{
+    font-weight: 600;
+}
+@media screen and (max-width: 1120px) {
+    main{
+        padding: 10px;
+    }
+    .mainDiv{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .divv1{
+        gap: 20%;
+    }
+    button{
+        width: 100%;
+    }
+}
